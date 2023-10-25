@@ -1,6 +1,6 @@
-// This work is licensed under a Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) https://creativecommons.org/licenses/by-nc-sa/4.0/
+
 //@version=5
-indicator("Neural Network Showcase | Alien_Algorithms", overlay=true, shorttitle="Neural Showcase | Alien_Algorithms")
+indicator("STNeural ", overlay=true, shorttitle="STNeural")
 
 lr = input.float(title='Learning Rate', defval=0.1, minval=0.00001)
 epochs = input.int(title='Epochs', defval=60, minval=10, maxval=1000)
